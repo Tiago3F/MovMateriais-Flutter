@@ -44,7 +44,7 @@ class _LoginPageState extends State<LoginPage> {
                   child: Padding(
                     padding: const EdgeInsets.all(8),
                     child: Column(
-                      children: <Widget>[
+                      children: [
                         Observer(
                           builder: (_) => TextField(
                             onChanged: (value) => store.email = value,
